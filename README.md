@@ -9,6 +9,13 @@ An interpretable, production-ready deep learning framework designed to accuratel
 
 ---
 
+## 📁 Repository Structure
+To explore the development and final pipeline of this project, navigate through the following notebooks:
+* 📄 **`VGG16_final_model.ipynb`**: Contains the complete, finalized training loop, hyperparameter optimization, and evaluation for our top-performing VGG16 model.
+* 📄 **`top_5_experiments.ipynb`**: Documents the extensive benchmarking phase, showcasing the training and comparative analysis of the alternative deep learning architectures tested.
+
+---
+
 ## 🛠️ Key Technical Highlights & Methodology
 Unlike standard black-box classifiers, this repository implements a comprehensive, clinically-focused pipeline:
 * **Advanced Preprocessing:** Applied **CLAHE** (Contrast Limited Adaptive Histogram Equalization) to enhance localized contrast in grayscale X-rays, capturing subtle radiographic features.
@@ -41,5 +48,4 @@ As the **Project Lead and Core AI Engineer**, I managed the project lifecycle an
 
 ## 📦 Tech Stack
 * **Languages:** Python
-* **Frameworks:** TensorFlow / Keras, OpenCV, Scikit-Learn
-* **Deployment:** Streamlit
+* **Frameworks:** TensorFlow / Keras
